@@ -50,7 +50,7 @@ function displayMsg(msg, isBot) {
   timeElement.classList.add('msg-time');
 
   if (isBot) {
-    nameElement.textContent = 'Bot';
+    nameElement.textContent = 'Jamie';
     msgElement.classList.add('msg', 'receiver');
   } else {
     nameElement.textContent = 'You';
