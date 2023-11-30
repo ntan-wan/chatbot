@@ -29,7 +29,11 @@
           <div id="chatbox-body" class="chatbox-body">
             <!-- chat history -->
           </div>
-          <form onsubmit="handleSubmit(event)" class="mt-3 chatbox-form">
+          <form
+            autocomplete="off"
+            onsubmit="handleSubmit(event)"
+            class="mt-3 chatbox-form"
+          >
             <input
               id="user-input"
               placeholder="Type a message..."
